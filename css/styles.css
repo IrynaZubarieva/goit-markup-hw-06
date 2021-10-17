@@ -652,11 +652,11 @@ body {
   padding-bottom: 15px;
   color: rgba(255, 255, 255, 0.6);
   resize: none;
+  outline: 0px;
 }
 .button1 {
   position: absolute;
   width: 200px;
-  height: 50px;
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -668,22 +668,26 @@ body {
   line-height: 1.9px;
   letter-spacing: 0.06em;
   color: #ffffff;
+  padding-left: 29px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  border-color: transparent;
+  align-items: center;
+  text-align: center;
 }
-.button1::placeholder {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9px;
-  letter-spacing: 0.06em;
-  color: #ffffff;
+.button1:focus {
+  background-color: var(--accent-color);
 }
+
 .footer-social-icon1 {
   width: 24px;
   height: 24px;
+  margin-left: 10px;
   fill: #ffffff;
   transition: fill 250ms;
 }
+
 .backdrop {
   position: fixed;
   width: 100vw;
