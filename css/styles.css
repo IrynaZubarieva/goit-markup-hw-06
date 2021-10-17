@@ -644,13 +644,14 @@ body {
   box-sizing: border-box;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
-  background-color: #44454e;
+  background: #2f303a;
   fill: 2f303a;
   margin-left: 93px;
-  align-items: center;
-  padding-top: 10px;
-  padding-left: 10px;
-  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 16px;
+  padding-bottom: 15px;
+  color: rgba(255, 255, 255, 0.6);
+  resize: none;
 }
 .button1 {
   position: absolute;
@@ -666,10 +667,23 @@ body {
   font-size: 16px;
   line-height: 1.9px;
   letter-spacing: 0.06em;
-
   color: #ffffff;
 }
-
+.button1::placeholder {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9px;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+.footer-social-icon1 {
+  width: 24px;
+  height: 24px;
+  fill: #ffffff;
+  transition: fill 250ms;
+}
 .backdrop {
   position: fixed;
   width: 100vw;
